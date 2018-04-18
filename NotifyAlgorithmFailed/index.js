@@ -13,7 +13,7 @@ module.exports = function (context, req) {
         var notificationUrl = process.env["NotificationUrl"]
 
         var msg = {
-            text : "Algorithm Dump generated at " + host + "/" + jobId + ":" + tag
+            text : "Algorithm Dump generated.  To retrieve it: `docker pull " + host + "/" + jobId + ":" + tag + "`"
         }
 
         request.post(notificationUrl, {json: msg}, function(error, response, body) {
