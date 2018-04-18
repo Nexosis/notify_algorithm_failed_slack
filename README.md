@@ -1,0 +1,2 @@
+## Nexosis Algorithm Dump Slack Notification Function
+This is a simple [Azure Function](https://docs.microsoft.com/en-us/azure/azure-functions/) implementation that accepts a WebHook post generated from an Azure Container Registry and posts a Slack message to a given webhook.
