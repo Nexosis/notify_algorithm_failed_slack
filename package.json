@@ -1,0 +1,22 @@
+{
+  "name": "notify_algorithm_failed_slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nexosis/notify_algorithm_failed_slack.git"
+  },
+  "author": "Nexosis, Inc",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "bugs": {
+    "url": "https://github.com/Nexosis/notify_algorithm_failed_slack/issues"
+  },
+  "homepage": "https://github.com/Nexosis/notify_algorithm_failed_slack#readme"
+}
