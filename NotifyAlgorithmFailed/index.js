@@ -8,7 +8,7 @@ module.exports = function (context, req) {
         };
         var host = req.body.request.host;
         var jobId = req.body.target.repository;
-        var tag = req.body.taret.tag;
+        var tag = req.body.target.tag;
 
         var notificationUrl = process.env["NotificationUrl"]
 
